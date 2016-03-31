@@ -1,10 +1,115 @@
+#login{
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  display: block;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.username{
+  margin: auto;
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 3px;
+  border: solid #A9A9A9 2px;
+}
+
+.username:focus{
+  outline: none;
+}
+
+.username::-webkit-input-placeholder{
+  color: black;
+}
+
+.submitbutton{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  border: solid black 2px;
+  background-color: #919191;
+  color: white;
+}
+
+.submitbutton:focus{
+  outline: none;
+  background-color: #A9A9A9;
+  border: white solid 2px;
+}
+
+.message{
+  margin: auto;
+  margin-top: 25px;
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 3px;
+  border: solid #A9A9A9 2px;
+  color: black;
+}
+
+.message:focus{
+  outline: none;
+}
+
+.message::-webkit-input-placeholder{
+  font-size: 1em;
+  color: #A9A9A9;
+}
 
 #chat {
-    display: none;
+  display: none;
+  margin: auto;
+  width: 75%;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.messagelist{
+  width: 75%;
+  list-style: none;
+  margin: auto;
+}
+
+.chatmessage{
+  position: relative;
+  top: 0;
+  left: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+  background-color: #AFD8FB;
+  max-width: 50%;
+  padding: 1%;
+  padding-left: 3%;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  border: #919191 solid 1px;
+  border-radius: 7px;
+  border-bottom-left-radius: 0px;
+  box-shadow: 1px 1px 3px #919191;
+}
+
+.chatauthor{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.75em;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+li > i{
+  color: #AFD8FB;
+  text-shadow: 1px 1px 3px black;
+
 }
 
 #chat cite {
-    font-size: 0.8em;
-    color: #999;
-    margin-left: 1em;
+  font-size: 0.8em;
+  color: #999;
+  margin-left: 1em;
 }
